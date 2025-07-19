@@ -10,6 +10,9 @@ https://marika777.github.io/Case-study/
   git clone https://github.com/yourusername/your-repository.git
   cd your-repository
 
+2. Установите зависимости: 
+  pnpm i
+
 2. Запустите локальный сервер:
   npx serve .
 
