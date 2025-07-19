@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Case Study</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  </head>
+  <body>
+
+    <section class="products">
+      <div class="tabs">
+        <button class="tabs__burger" aria-label="Show menu">
+          <span></span><span></span><span></span>
+        </button>
+        <ul class="tabs__list">
+          <li class="tabs__item tabs__item--active" data-tab="all">All</li>
+          <li class="tabs__item" data-tab="taxes">Taxes & Efficiency</li>
+          <li class="tabs__item" data-tab="banking">Investment banking</li>
+          <li class="tabs__item" data-tab="plan">Financial Plan</li>
+          <li class="tabs__item" data-tab="audit">Audit & Evaluation</li>
+        </ul>
+      </div>
+
+      <div class="card-list">
+        <div class="card-list__grid"></div>
+        <div class="card-list__slider swiper">
+          <div class="swiper-wrapper"></div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contacts">
+      <div class="contacts__info">
+        <div class="contacts__header">
+          <span class="contacts__badge">Process</span>
+          <div class="contacts__main">
+            <h2 class="contacts__title">Contact Us. It’s Easy.</h2>
+            <p class="contacts__desc">
+              Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative.
+            </p>
+          </div>
+        </div>
+          
+        <ul id="contacts-list" class="contacts__list"></ul>
+      </div>
+      
+      <form class="contacts__form">
+        
+      </form>
+    </section>
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script type="module" src="main.js"></script>
+  </body>
+</html>
