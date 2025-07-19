@@ -2,6 +2,10 @@ Case Study Landing
 
 Одностраничный проект "Business Services" — карточки услуг, контакты и форма обратной связи.
 
+Откройте демонстрацию по ссылке : 
+https://marika777.github.io/Case-study/
+
+Или же
 1. Склонируйте репозиторий:
   git clone https://github.com/yourusername/your-repository.git
   cd your-repository
